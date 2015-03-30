@@ -6,6 +6,7 @@ set number
 colorscheme desert
 set nobackup
 colors desert
+set nocompatible
 
 nnoremap <C-J> J
 nnoremap K {
