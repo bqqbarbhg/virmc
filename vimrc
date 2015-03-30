@@ -16,6 +16,7 @@ vnoremap K {
 vnoremap J }
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+nnoremap Y y$
 
 command! Rc :so ~/.vimrc
 command! W w
