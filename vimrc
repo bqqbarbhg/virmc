@@ -1,3 +1,10 @@
+" Pathogen
+execute pathogen#infect()
+
+" Window size
+set columns=80
+set lines=40
+
 " Basic usability
 set backspace=2
 syntax on
@@ -9,15 +16,22 @@ set nobackup
 colors desert
 set nocompatible
 
+" Better search
+set smartcase
+set hlsearch
+set incsearch
+nnoremap <Esc> :noh<CR>
+
 " 4-width TAB characters
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
 " Safe undo
-set backupdir=W:/vimstuff/backup//
-set directory=W:/vimstuff/swap//
-set undodir=W:/vimstuff/undo//
+let s:vimstuff='D:/vimstuff'
+let &backupdir=s:vimstuff.'/backup//'
+let &directory=s:vimstuff.'/swap//'
+let &undodir=s:vimstuff.'/undo//'
 
 " Key mappings
 nnoremap gj J
@@ -40,4 +54,14 @@ nnoremap <C-t> :tabnew<CR>
 " Command mappings
 command! Rc :so ~/.vimrc
 command! W w
+command! Q q
+command! Wq wq
+command! WQ wq
+command! VS set hlsearch | set incsearch | noh
+command! NS set nohlsearch | set noincsearch
+
+" File encoding
+set enc=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf8,prc
 
