@@ -28,7 +28,6 @@ set shiftwidth=4
 set softtabstop=4
 
 " Safe undo
-let s:vimstuff='D:/vimstuff'
 let &backupdir=s:vimstuff.'/backup//'
 let &directory=s:vimstuff.'/swap//'
 let &undodir=s:vimstuff.'/undo//'
