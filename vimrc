@@ -8,13 +8,18 @@ set lines=40
 " Basic usability
 set backspace=2
 syntax on
+filetype on
 filetype indent on
+filetype plugin on
 set autoindent
 set number
 colorscheme desert
 set nobackup
 colors desert
 set nocompatible
+set ruler
+set hidden
+set history=128
 
 " Better search
 set smartcase
