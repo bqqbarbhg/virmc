@@ -25,7 +25,6 @@ set autoread
 " Better search
 set ignorecase
 set smartcase
-set hlsearch
 set incsearch
 nnoremap <Esc> :noh<CR>
 
@@ -58,6 +57,7 @@ nnoremap <C-S-tab> :tabprev<CR>
 nnoremap <C-t> :tabnew<CR>
 
 " Command mappings
+command! Rc :so $MYVIMRC
 command! W w
 command! Q q
 command! Wq wq
