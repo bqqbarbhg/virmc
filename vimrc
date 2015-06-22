@@ -20,8 +20,10 @@ set nocompatible
 set ruler
 set hidden
 set history=128
+set autoread
 
 " Better search
+set ignorecase
 set smartcase
 set hlsearch
 set incsearch
