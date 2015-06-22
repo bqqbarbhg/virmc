@@ -58,7 +58,6 @@ nnoremap <C-S-tab> :tabprev<CR>
 nnoremap <C-t> :tabnew<CR>
 
 " Command mappings
-command! Rc :so ~/.vimrc
 command! W w
 command! Q q
 command! Wq wq
