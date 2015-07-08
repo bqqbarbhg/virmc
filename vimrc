@@ -70,3 +70,9 @@ set enc=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf8,prc
 
+" Filetypes
+autocmd FileType ruby setlocal
+    \ shiftwidth=2 tabstop=2 softtabstop=2 expandtab
+autocmd FileType eruby setlocal
+    \ shiftwidth=2 tabstop=2 softtabstop=2 expandtab
+
