@@ -1,6 +1,3 @@
-" Pathogen
-execute pathogen#infect()
-
 " Window size
 set columns=80
 set lines=40

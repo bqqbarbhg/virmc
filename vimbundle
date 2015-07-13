@@ -1,0 +1,20 @@
+set rtp+=~/vimfiles/bundle/Vundle.vim
+call vundle#begin('~/vimfiles/bundle')
+
+" Vundle itself
+Plugin 'gmarik/Vundle.vim'
+
+" tpope classics
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-repeat'
+
+" File navigation
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+
+" Autocomplete
+Plugin 'ervandew/supertab'
+
+call vundle#end()
+filetype plugin indent on
