@@ -61,5 +61,5 @@ if %has_vundle%==1 (
 copy out\gen_vimrc "%USERPROFILE%/_vimrc" > NUL
 copy gvimrc "%USERPROFILE%/_gvimrc" > NUL
 
-vim +PluginInstall +qall || echo Plugins not updated, vim was not found.
+vim +PluginClean! +PluginInstall +qall || echo Plugins not updated, vim was not found.
 
