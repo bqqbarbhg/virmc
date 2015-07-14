@@ -67,6 +67,10 @@ set enc=utf-8
 set fileencoding=utf-8
 set fileencodings=ucs-bom,utf8,prc
 
+" Visible whitespace
+set nolist
+set listchars=trail:.,tab:>-
+
 " Filetypes
 autocmd FileType ruby setlocal
     \ shiftwidth=2 tabstop=2 softtabstop=2 expandtab
