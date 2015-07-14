@@ -77,3 +77,8 @@ autocmd FileType ruby setlocal
 autocmd FileType eruby setlocal
     \ shiftwidth=2 tabstop=2 softtabstop=2 expandtab
 
+" GUI
+if has("gui_running")
+	set guifont=Consolas:h10
+end
+

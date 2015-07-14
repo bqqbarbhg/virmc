@@ -1,5 +1,5 @@
 set rtp+=~/vimfiles/bundle/Vundle.vim
-call vundle#begin('~/vimfiles/bundle/vundle')
+call vundle#begin('~/vimfiles/bundle/bqq_vundle')
 
 " Vundle itself
 Plugin 'gmarik/Vundle.vim'

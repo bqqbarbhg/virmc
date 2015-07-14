@@ -58,8 +58,8 @@ if %has_vundle%==1 (
 	type vimrc
 ) > out\gen_vimrc
 
-copy out\gen_vimrc "%USERPROFILE%/_vimrc" > NUL
-copy gvimrc "%USERPROFILE%/_gvimrc" > NUL
+mkdir "%USERPROFILE%\vimfiles\plugin" 2>NUL
+copy out\gen_vimrc "%USERPROFILE%\vimfiles\plugin\bqq_vimrc.vim" > NUL
 
 vim +PluginClean! +PluginInstall +qall || echo Plugins not updated, vim was not found.
 
