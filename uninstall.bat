@@ -7,6 +7,6 @@ if not %vimstuff%=="" (
 	rmdir /S /Q %vimstuff%
 )
 
-del /Q "%USERPROFILE%\vimfiles\plugin\bqq_vimrc.vim"
+del /Q "%USERPROFILE%\_vimrc_bqq" && vim -u NONE "%USERPROFILE%\_vimrc"
 rmdir /S /Q "%USERPROFILE%\vimfiles\bundle\bqq_vundle"
 
