@@ -8,6 +8,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-sleuth'
 
 " File navigation
 Plugin 'kien/ctrlp.vim'
