@@ -1,7 +1,3 @@
-" Window size
-set columns=80
-set lines=40
-
 " Basic usability
 set backspace=2
 syntax on
@@ -79,6 +75,9 @@ autocmd FileType eruby setlocal
 
 " GUI
 if has("gui_running")
-	set guifont=Consolas:h10
+    set guifont=Consolas:h10
+
+    set columns=80
+    set lines=40
 end
 
