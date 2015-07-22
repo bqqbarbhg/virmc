@@ -43,6 +43,7 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap Y y$
+nnoremap Q @q
 
 " Tab handling
 nnoremap <C-tab> :tabnext<CR>
