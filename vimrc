@@ -68,6 +68,10 @@ set fileencodings=ucs-bom,utf8,prc
 set nolist
 set listchars=trail:.,tab:>-
 
+" Better wildmenu
+set wildmenu
+set wildmode=longest:full,full
+
 " Filetypes
 autocmd FileType ruby setlocal
     \ shiftwidth=2 tabstop=2 softtabstop=2 expandtab
