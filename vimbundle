@@ -17,5 +17,8 @@ Plugin 'scrooloose/nerdtree'
 " Autocomplete
 Plugin 'ervandew/supertab'
 
+" Tab naming
+Plugin 'gcmt/taboo.vim'
+
 call vundle#end()
 filetype plugin indent on
