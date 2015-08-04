@@ -48,7 +48,6 @@ nnoremap Q @q
 " Tab handling
 nnoremap <C-tab> :tabnext<CR>
 nnoremap <C-S-tab> :tabprev<CR>
-nnoremap <C-t> :tabnew<CR>
 
 " Command mappings
 command! Rc :so $MYVIMRC
@@ -71,6 +70,10 @@ set listchars=trail:.,tab:>-
 " Better wildmenu
 set wildmenu
 set wildmode=longest:full,full
+
+" ctags navigation
+nnoremap å <C-]>
+nnoremap Å <C-t>
 
 " Filetypes
 autocmd FileType ruby setlocal

@@ -20,5 +20,8 @@ Plugin 'ervandew/supertab'
 " Tab naming
 Plugin 'gcmt/taboo.vim'
 
+" ctags features
+Plugin 'majutsushi/tagbar'
+
 call vundle#end()
 filetype plugin indent on
