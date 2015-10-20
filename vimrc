@@ -90,6 +90,10 @@ if has("gui_running")
     set guifont=Consolas:h10
 
     set columns=80
-    set lines=40
+
+    set guioptions-=m
+    set guioptions-=T
+    set guioptions-=r
+    set guioptions-=L
 end
 
