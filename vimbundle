@@ -24,5 +24,12 @@ Plugin 'gcmt/taboo.vim'
 " ctags features
 Plugin 'majutsushi/tagbar'
 
+" Better grep
+Plugin 'mileszs/ack.vim'
+let g:ackprg='pt --nogroup --nocolor'
+
+" Switch between header and source
+Plugin 'vim-scripts/a.vim'
+
 call vundle#end()
 filetype plugin indent on
