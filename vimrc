@@ -44,6 +44,10 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap Y y$
 nnoremap Q @q
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
 
 " Tab handling
 nnoremap <C-tab> :tabnext<CR>
