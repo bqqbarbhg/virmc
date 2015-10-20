@@ -48,6 +48,12 @@ nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
+nnoremap <C-c> "+y
+nnoremap <C-x> "+d
+nnoremap <C-v> "+p
+vnoremap <C-c> "+y
+vnoremap <C-x> "+d
+vnoremap <C-v> "+p
 
 " Tab handling
 nnoremap <C-tab> :tabnext<CR>
