@@ -31,5 +31,8 @@ let g:ackprg='pt --nogroup --nocolor'
 " Switch between header and source
 Plugin 'vim-scripts/a.vim'
 
+" Custom helpers
+Plugin 'bqqbarbhg/vim-bqq'
+
 call vundle#end()
 filetype plugin indent on
