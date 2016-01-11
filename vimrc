@@ -1,3 +1,6 @@
+" Language
+language English_United States
+
 " Basic usability
 set backspace=2
 syntax on
@@ -54,6 +57,7 @@ nnoremap <C-v> "+p
 vnoremap <C-c> "+y
 vnoremap <C-x> "+d
 vnoremap <C-v> "+p
+inoremap <C-v> <C-r>+
 
 " Tab handling
 nnoremap <C-tab> :tabnext<CR>
@@ -101,5 +105,10 @@ if has("gui_running")
     set guioptions-=T
     set guioptions-=r
     set guioptions-=L
+
+    set langmenu=en_US
+    let $LANG = 'en_US'
+    source $VIMRUNTIME/delmenu.vim
+    source $VIMRUNTIME/menu.vim
 end
 
