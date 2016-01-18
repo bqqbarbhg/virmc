@@ -52,16 +52,18 @@ nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 nnoremap <C-c> "+y
-nnoremap <C-x> "+d
 nnoremap <C-v> "+p
 vnoremap <C-c> "+y
-vnoremap <C-x> "+d
 vnoremap <C-v> "+p
 inoremap <C-v> <C-r>+
 
 " Tab handling
 nnoremap <C-tab> :tabnext<CR>
 nnoremap <C-S-tab> :tabprev<CR>
+
+" Jumping to correction window
+nnoremap <F3> :cnext<CR>zz
+nnoremap <F4> :cprev<CR>zz
 
 " Command mappings
 command! Rc :so $MYVIMRC
@@ -71,6 +73,7 @@ command! Wq wq
 command! WQ wq
 command! VS set hlsearch | set incsearch | noh
 command! NS set nohlsearch | set noincsearch
+command! Exp !start explorer /select,%:p
 
 " File encoding
 set enc=utf-8
@@ -98,8 +101,6 @@ autocmd FileType eruby setlocal
 " GUI
 if has("gui_running")
     set guifont=Consolas:h10
-
-    set columns=80
 
     set guioptions-=m
     set guioptions-=T

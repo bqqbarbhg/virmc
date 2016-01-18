@@ -13,6 +13,9 @@ Plugin 'tpope/vim-fugitive'
 
 " File navigation
 Plugin 'kien/ctrlp.vim'
+let g:ctrlp_cmd = 'CtrlPMixed'
+let g:ctrlp_working_path_mode = ''
+
 Plugin 'scrooloose/nerdtree'
 
 " Autocomplete
@@ -23,6 +26,7 @@ Plugin 'gcmt/taboo.vim'
 
 " ctags features
 Plugin 'majutsushi/tagbar'
+let g:tagbar_sort=0
 
 " Better grep
 Plugin 'mileszs/ack.vim'
